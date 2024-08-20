@@ -59,3 +59,9 @@ type Account struct {
 }
 
 type Phone string
+
+type Client struct {
+	Id       int64
+	Name     string
+	Lastname string
+}
