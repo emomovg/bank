@@ -54,7 +54,7 @@ type PaymentStatus string
 
 type Account struct {
 	Id      int64
-	phone   Phone
+	Phone   Phone
 	Balance Money
 }
 
