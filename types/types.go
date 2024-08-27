@@ -65,3 +65,11 @@ type Client struct {
 	Name     string
 	Lastname string
 }
+
+type Favorite struct {
+	Id        int
+	AccountId int64
+	Name      string
+	Amount    Money
+	Category  Category
+}
