@@ -54,7 +54,7 @@ type PaymentStatus string
 
 type Account struct {
 	Id      int64
-	phone   Phone
+	Phone   Phone
 	Balance Money
 }
 
@@ -64,4 +64,17 @@ type Client struct {
 	Id       int64
 	Name     string
 	Lastname string
+}
+
+type Favorite struct {
+	Id        int
+	AccountId int64
+	Name      string
+	Amount    Money
+	Category  Category
+}
+
+type Progress struct {
+	Part   int
+	Result Money
 }
