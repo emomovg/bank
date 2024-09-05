@@ -73,3 +73,8 @@ type Favorite struct {
 	Amount    Money
 	Category  Category
 }
+
+type Progress struct {
+	Part   int
+	Result Money
+}
